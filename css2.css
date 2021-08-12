@@ -95,22 +95,19 @@ p{
 }
 
 #imghome{
-  overflow: all;
-  height: 150px;
+  height: 160px;
   display: flex;
   float: right;
-  padding: 25px;
   background-color: darkorange;
   margin: 0px;
   align-items: center;
+  text-align: center;
 }
 #contenthome{
   height: 160px;
   display: inline-block;
   float: RIGHT;
   overflow: auto;
-  padding: 20px;
-  padding-top: 10px;
   background-color: black;
   margin: 0px;
 }
