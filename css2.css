@@ -55,7 +55,8 @@ p{
 .thongkee{
   margin: 0px;
   padding: 0px;
-  background-color: gray;  height: 500px;overflow: auto;
+  background-color: gray;  height: 500px;
+  overflow-y: auto;
 }
 .thongke2{
   color: red;
@@ -95,11 +96,12 @@ p{
 }
 
 #imghome{
-  height: 160px;
+  height: 150px;
   display: flex;
   float: right;
   background-color: darkorange;
   margin: 0px;
+  padding-top: 10px;
   align-items: center;
   text-align: center;
 }
@@ -183,7 +185,7 @@ p{
 }
 #ktrang td{
   width: 48%;
-  font-size: 2em;
+  font-size: 1em;
   color: yellowgreen;
 }
 #a456{
@@ -329,7 +331,8 @@ p{
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a:not(.active) {
+    display: none;}
   .topnav a.icon {
     float: right;
     display: block;
